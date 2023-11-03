@@ -1,2 +1,5 @@
 ﻿  vjezbe2.c
-  vjezbe2.vcxproj -> C:\Users\Jure\OneDrive\Desktop\vjezbe2\vjezbe2\Debug\vjezbe2.exe
+c:\users\jure\onedrive\desktop\prog\strukturepodataka\vjezbe2\vjezbe2\vjezbe2.c(153): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+c:\users\jure\onedrive\desktop\prog\strukturepodataka\vjezbe2\vjezbe2\vjezbe2.c(188): warning C4172: returning address of local variable or temporary: surname
+  LINK : C:\Users\Jure\OneDrive\Desktop\prog\StrukturePodataka\vjezbe2\Debug\vjezbe2.exe not found or not built by the last incremental link; performing full link
+  vjezbe2.vcxproj -> C:\Users\Jure\OneDrive\Desktop\prog\StrukturePodataka\vjezbe2\Debug\vjezbe2.exe
