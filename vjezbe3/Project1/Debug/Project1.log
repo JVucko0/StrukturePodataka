@@ -1,0 +1,6 @@
+﻿  vjezba.c
+c:\users\jure\onedrive\desktop\vjezbe3\project1\project1\vjezba.c(174): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+c:\users\jure\onedrive\desktop\vjezbe3\project1\project1\vjezba.c(337): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+c:\users\jure\onedrive\desktop\vjezbe3\project1\project1\vjezba.c(373): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+c:\users\jure\onedrive\desktop\vjezbe3\project1\project1\vjezba.c(254): warning C4172: returning address of local variable or temporary: surname
+  Project1.vcxproj -> C:\Users\Jure\OneDrive\Desktop\vjezbe3\Project1\Debug\Project1.exe
