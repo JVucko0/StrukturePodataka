@@ -30,7 +30,7 @@ int main(){
 
 	printf("First Polinom: \n");
 	printList(&polinom1);
-	printf("Second Polinom: \n");
+	printf("\nSecond Polinom: \n");
 	printList(&polinom2);
 
 	return 0;
