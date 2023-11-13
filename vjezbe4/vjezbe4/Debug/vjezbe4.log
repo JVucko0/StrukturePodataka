@@ -1,3 +1,5 @@
 ﻿  vj4.c
-c:\users\jure\onedrive\desktop\lab\strukturepodataka\vjezbe4\vjezbe4\vj4.c(66): warning C4013: 'strlen' undefined; assuming extern returning int
+c:\users\jure\onedrive\desktop\lab\strukturepodataka\vjezbe4\vjezbe4\vj4.c(76): warning C4013: 'strlen' undefined; assuming extern returning int
+c:\users\jure\onedrive\desktop\lab\strukturepodataka\vjezbe4\vjezbe4\vj4.c(128): warning C4047: '==': 'int' differs in levels of indirection from 'Position'
+c:\users\jure\onedrive\desktop\lab\strukturepodataka\vjezbe4\vjezbe4\vj4.c(165): warning C4716: 'multiply': must return a value
   vjezbe4.vcxproj -> C:\Users\Jure\OneDrive\Desktop\lab\StrukturePodataka\vjezbe4\Debug\vjezbe4.exe

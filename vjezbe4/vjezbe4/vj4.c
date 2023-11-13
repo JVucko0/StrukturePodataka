@@ -21,17 +21,27 @@ int readFromFile(Position pol1, Position pol2);
 int stringToList(char* buffer, Position pol);
 int addSorted(Position pol, int coef, int exp);
 int printList(Position pol);
+int addition(Position pol1, Position pol2, Position resultA);
+int multiply(Position pol1, Position pol2, Position resultM);
 
 int main(){
 	Element polinom1 = { .coefficent = 0 ,.exponent = 0,.next = NULL };
 	Element polinom2 = { .coefficent = 0 ,.exponent = 0,.next = NULL };
-
+	Element resultA = { .coefficent = 0 ,.exponent = 0,.next = NULL };
+	Element resultM = { .coefficent = 0 ,.exponent = 0,.next = NULL };
 	readFromFile(&polinom1, &polinom2);
 
 	printf("First Polinom: \n");
 	printList(&polinom1);
 	printf("\nSecond Polinom: \n");
 	printList(&polinom2);
+
+	addition(polinom1.next, polinom2.next, &resultA);
+	multiply(polinom1.next, polinom2.next, &resultM);
+	printf("\nAddition: \n");
+	printList(&resultA);
+	printf("\nMultiplying: \n");
+	printList(&resultM);
 
 	return 0;
 }
@@ -110,5 +120,46 @@ int printList(Position head) {
 	return 0;
 }
 
+int addition(Position pol1, Position pol2, Position result) {
+	Position remainingPol = NULL;
+	Position newElement = NULL;
 
+	while (pol1 != NULL && pol2 != NULL) {
+		if (pol1->exponent == pol2->next) {
+			addSorted(result, (pol1->coefficent+ pol2->coefficent), pol1->exponent);
+			pol1 = pol1->next;
+			pol2 = pol2->next;
+		}
+		else if (pol1->exponent < pol2->exponent) {
+			addSorted(result, pol2->coefficent, pol2->exponent);
+			pol2 = pol2->next;
+		}
+		else {
+			addSorted(result, pol1->coefficent, pol1->exponent);
+			pol1 = pol1->next;
+		}
+	}
+	if (pol1 == NULL) {
+		remainingPol = pol2;
+	}
+	else {
+		remainingPol = pol1;
+	}
+	while (remainingPol != NULL) {
+		addSorted(result, remainingPol->coefficent, remainingPol->exponent);
+		remainingPol = remainingPol->next;
+	}
+	return 0;
+}
 
+int multiply(Position pol1, Position pol2, Position result) {
+	Position currentPol2 = pol2;
+	while (pol1 != NULL) {
+		while (pol2 != NULL) {
+			addSorted(result, (pol1->coefficent * pol2->coefficent), pol1->exponent + pol2->exponent);
+			pol2 = pol2->next;
+		}
+		pol2 = currentPol2;
+		pol1 = pol1->next;
+	}
+}
