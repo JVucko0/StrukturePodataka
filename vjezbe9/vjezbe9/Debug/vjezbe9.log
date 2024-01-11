@@ -1,0 +1,3 @@
+﻿  vjezbe9.c
+c:\users\jure\source\repos\vjezbe9\vjezbe9\vjezbe9.c(93): warning C4047: 'return': 'Position' differs in levels of indirection from 'int'
+  vjezbe9.vcxproj -> C:\Users\Jure\source\repos\vjezbe9\Debug\vjezbe9.exe
