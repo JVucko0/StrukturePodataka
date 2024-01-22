@@ -1,0 +1,5 @@
+Strasbourg 120000
+Brest 200000
+Nice 120000
+Pariz 6000000
+Lurd 500000

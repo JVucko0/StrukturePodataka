@@ -1,0 +1,2 @@
+pariz 6000000
+strasbourg 120000

@@ -1,0 +1,3 @@
+berlin 3000000
+munchen 2000000
+dortmund 2500000

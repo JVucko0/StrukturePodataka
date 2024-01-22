@@ -1,0 +1,2 @@
+moskva 2000000
+peterburg 1000000
