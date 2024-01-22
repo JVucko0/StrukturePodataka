@@ -1,0 +1,8 @@
+Jure 1
+Homer	Ilijada	1999
+Mirko 1
+Homer	Odiseja	2003
+Nino 3
+Kafka	Kukac	2012
+Kafka	Kukac	2012
+Camus	Stranac	2002

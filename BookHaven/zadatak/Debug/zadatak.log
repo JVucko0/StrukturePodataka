@@ -1,0 +1,6 @@
+﻿  zadatak.c
+C:\Users\Jure\source\repos\zadatak\zadatak\zadatak.c(109,4): warning C4013: 'printUsers' undefined; assuming extern returning int
+C:\Users\Jure\source\repos\zadatak\zadatak\zadatak.c(205,30): warning C4047: 'return': 'PositionBook' differs in levels of indirection from 'int'
+C:\Users\Jure\source\repos\zadatak\zadatak\zadatak.c(306,30): warning C4047: 'return': 'PositionUser' differs in levels of indirection from 'int'
+C:\Users\Jure\source\repos\zadatak\zadatak\zadatak.c(149): warning C4716: 'menu': must return a value
+  zadatak.vcxproj -> C:\Users\Jure\source\repos\zadatak\Debug\zadatak.exe

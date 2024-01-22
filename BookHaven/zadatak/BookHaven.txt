@@ -1,0 +1,7 @@
+Author	Title	Year	Available
+Homer	Ilijada	1999	9
+Kafka	Kukac	2012	7
+Homer	Odiseja	2003	3
+Kafka	Proces	2013	4
+Camus	Stranac	2002	5
+
